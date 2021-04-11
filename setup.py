@@ -21,7 +21,7 @@ setup(
     platforms='All',
     packages=['pyx12', 'pyx12.scripts'],
     package_data={
-        '': ['*.xml', '*.md'],
+        # '': ['*.xml', '*.md'],
         'pyx12': ['map/*.xml', 'map/*.xsd'],
     },
     #data_files=[('config', ['bin/pyx12.conf.xml.sample'])],
